@@ -1,0 +1,17 @@
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.deps.json
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.pdb
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.pdb
+C:\Users\TranDiep\source\repos\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.pdb
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csprojAssemblyReference.cache
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfoInputs.cache
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfo.cs
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CopyComplete
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\TranDiep\source\repos\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.pdb
