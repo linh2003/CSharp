@@ -1,0 +1,17 @@
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.csprojAssemblyReference.cache
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.AssemblyInfoInputs.cache
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.AssemblyInfo.cs
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.csproj.CoreCompileInputs.cache
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Services.deps.json
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Services.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ref\ClassRoomManage.Services.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Services.pdb
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ref\ClassRoomManage.Services.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.pdb
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Entity.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Persistence.dll
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Entity.pdb
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\bin\Debug\net5.0\ClassRoomManage.Persistence.pdb
+C:\Users\TranDiep\source\repos\ClassRoomManage.Services\obj\Debug\net5.0\ClassRoomManage.Services.csproj.CopyComplete
