@@ -1,4 +1,4 @@
-﻿using ClassRoomManage.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +7,16 @@ using System.Threading.Tasks;
 
 namespace ClassRoomManage.Services
 {
-    public interface IClassRoomService
+    public interface IClassRoomService<T>
     {
-        Task CreateAsync(ClassRoom obj);
-        ClassRoom GetById(string id);
-        Task UpdateAsync(string id);
+        Task CreateAsync(T obj);
+        T GetById(string id);
+        Task UpdateAsync(T obj);
         Task Delete(string id);
-        IEnumerable<ClassRoom> GetAll();
+
+        IEnumerable<T> GetAll();
+        IEnumerable<SelectListItem> GetAllClassRoomForStudent();
+
+        IEnumerable<T> Search(string data);
     }
 }

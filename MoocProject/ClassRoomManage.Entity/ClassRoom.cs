@@ -14,5 +14,6 @@ namespace ClassRoomManage.Entity
         [Required, MaxLength(200)]
         public string NameClassRoom { get; set; }
         public string DescribeClassRoom { get; set; }
+        public IEnumerable<Student> Students { get; set; }
     }
 }

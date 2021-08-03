@@ -48,7 +48,7 @@ namespace ClassRoomManage.Persistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ClassRoomId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -56,6 +56,8 @@ namespace ClassRoomManage.Persistence.Migrations
                         .HasColumnType("nvarchar(150)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClassRoomId");
 
                     b.ToTable("Students");
                 });
@@ -260,6 +262,15 @@ namespace ClassRoomManage.Persistence.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("ClassRoomManage.Entity.Student", b =>
+                {
+                    b.HasOne("ClassRoomManage.Entity.ClassRoom", "ClassRoom")
+                        .WithMany("Students")
+                        .HasForeignKey("ClassRoomId");
+
+                    b.Navigation("ClassRoom");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -309,6 +320,11 @@ namespace ClassRoomManage.Persistence.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ClassRoomManage.Entity.ClassRoom", b =>
+                {
+                    b.Navigation("Students");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,80 @@
+﻿@model ManageClassListPagination<StudentIndexViewModel>
+
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Student List</li>
+                    </ol>
+                </nav><br /><br />
+                <div class="row">
+                    <div class="col-md-12 table-responsive-md">
+                        <form asp-action="Index" method="GET">
+                            <div class="form-row">
+                                <label>Search Name Student:</label>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-10 col-sm-6">
+                                    <input type="text" name="searchString" value="@ViewBag.searchString" class="form-control" />
+                                </div>
+                                <div class="form-search form-group col-md-2 col-sm-6">
+                                    <input type="submit" value="Search" class="form-control" />
+                                </div>
+                            </div>
+                        </form>
+                        <a class="btn btn-xs btn-outline-success float-md-right" asp-action="Create">New Student</a>
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Student No.</th>
+                                    <th>Name Student</th>
+                                    <th>Birthday</th>
+                                    <th>ClassRoom ID</th>
+                                    <th class="text-warning">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Name</td>
+                                        <td>@item.Birthday.ToString("dd/MM/yyyy")</td>
+                                        <td>@item.ClassRoomId</td>
+                                        <td>
+                                            <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
+                                            <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">
+                                                <i class="far fa-trash-alt"></i> Delete
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table><br />
+                        @{
+                            var disablePrevious = !Model.IsPreviousPageAvailable ? "disabled" : "";
+                            var disableNext = !Model.IsNextPageAvailable ? "disabled" : "";
+                        }
+
+                        <a asp-action="Index"
+                           asp-route-pageNumber="@(Model.PageIndex - 1)"
+                           class="btn btn-primary @disablePrevious">
+                            Previous
+                        </a>
+                        <a asp-action="Index"
+                           asp-route-pageNumber="@(Model.PageIndex + 1)"
+                           class="btn btn-primary @disableNext">
+                            Next
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

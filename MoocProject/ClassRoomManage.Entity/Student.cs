@@ -17,5 +17,6 @@ namespace ClassRoomManage.Entity
         public DateTime Birthday { get; set; }
         [ForeignKey("ClassRoom")]
         public string ClassRoomId { get; set; }
+        public ClassRoom ClassRoom { get; set; }
     }
 }
